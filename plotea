@@ -1,0 +1,6 @@
+do for [i=1:200]{
+         set yrange[1440:1540]
+	 plot 'densidad.dat' every ::(1501*(i-1)+1)::i*(1501) w l
+	 pause 0.1
+	 }
+
